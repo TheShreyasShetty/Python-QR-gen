@@ -2,7 +2,7 @@ import pyqrcode
 import png
 from pyqrcode import QRCode
 
-s = "https://drive.google.com/file/d/1_L_ULC-TBNFSM5kXRrfmKEzum2KlaUEK/view?usp=sharing"
+s = "deploy the link which you want to embed in the QR"
 
 url = pyqrcode.create(s)
 
